@@ -280,6 +280,12 @@ let Tlist_Use_SingleClick = 1
 let Tlist_Inc_Winwidth = 0
 "}}}
 
+"{{{Auto close brackets in insert mode
+inoremap {  }}<Left>
+inoremap (  }}<Left>
+inoremap [  }}<Left>
+"}}}
+
 let g:rct_completion_use_fri = 1
 "let g:Tex_DefaultTargetFormat = "pdf"
 let g:Tex_ViewRule_pdf = "kpdf"
