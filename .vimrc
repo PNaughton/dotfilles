@@ -281,9 +281,9 @@ let Tlist_Inc_Winwidth = 0
 "}}}
 
 "{{{Auto close brackets in insert mode
-inoremap {  }}<Left>
-inoremap (  }}<Left>
-inoremap [  }}<Left>
+inoremap{  {}<Left>
+inoremap[  []<Left>
+inoremap(  ()<Left>
 "}}}
 
 let g:rct_completion_use_fri = 1
