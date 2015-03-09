@@ -267,8 +267,8 @@ inoremap <expr> <c-n> pumvisible() ? "\<lt>c-n>" : "\<lt>c-n>\<lt>c-r>=pumvisibl
 inoremap <expr> <m-;> pumvisible() ? "\<lt>c-n>" : "\<lt>c-x>\<lt>c-o>\<lt>c-n>\<lt>c-p>\<lt>c-r>=pumvisible() ? \"\\<lt>down>\" : \"\"\<lt>cr>"
 
 " Swap ; and :  Convenient.
-nnoremap ; :
-nnoremap : ;
+"nnoremap ; :
+"nnoremap : ;
 
 " Fix email paragraphs
 nnoremap <leader>par :%s/^>$//<CR>
@@ -286,9 +286,9 @@ let Tlist_Inc_Winwidth = 0
 "}}}
 
 "{{{Auto close brackets in insert mode
-inoremap{  {}<Left>
-inoremap[  []<Left>
-inoremap(  ()<Left>
+inoremap{}  {}<Left>
+inoremap[]  []<Left>
+inoremap()  ()<Left>
 "}}}
 
 "{{{ REQUIRED. This makes vim invoke Latex-Suite when you open a tex file.
